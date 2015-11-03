@@ -1,0 +1,35 @@
+Instructions to run scripts:
+----------------------------
+
+The folder consists of following python files
+
+	1. page_rank.py
+		1. This file consists of "PageRankCalculator" class which is imported by 2 other python files.
+		2. DO NOT RUN THIS.
+		3. This file has methods to calculate PageRank per iteration and till the values are converged.
+
+	2. pageRankAtIterations.py
+		1. This script outputs the page rank values at 1st, 10th and 100th iteration.
+		1.   	python pageRankAtIterations.py <filename>
+		2. If filename is empty, default file taken is "Graph_SmallSet"
+		4. The values are also stored in "RankAtIterations.txt"
+
+	3. lists_generator.py
+		1. This script calculates page rank values and perplexity of the values.
+		2. It continues to do so till the values are converged.
+		3. At the end, 3 files are generated
+				- PerplexityValues.txt: The perplexity values at each iteration till convergence
+				- Top50_PageRank.txt  : Top 50 URLs with high page ranks
+				- Top50_InLinks.txt	  : Top 50 URLS with high inlink count
+		4. This script also outputs the proportion of urls with zero outlinks, zero inlinks and the urls with page ranks lesser than initial PR		
+This folder also contains:
+
+	1. Graph_LargeSet : Graph consisting of 183,811 nodes as given on course page
+	2. Graph_SmallSet : Graph consisting of 6 nodes as given on course page
+
+Statistical analysis:
+---------------------
+
+1. 7% URLs have zero inlinks
+2. 36% URLs have zero outlinks
+3. 78% URLs have lesser page rank than initial page rank

@@ -1,0 +1,21 @@
+Iteration: 1
+Node: A | Rank: 0.249305555556
+Node: C | Rank: 0.143055555556
+Node: B | Rank: 0.119444444444
+Node: E | Rank: 0.213888888889
+Node: D | Rank: 0.13125
+Node: F | Rank: 0.143055555556
+Iteration: 10
+Node: A | Rank: 0.252036376028
+Node: C | Rank: 0.151293765935
+Node: B | Rank: 0.139306509183
+Node: E | Rank: 0.187106610143
+Node: D | Rank: 0.118962972777
+Node: F | Rank: 0.151293765935
+Iteration: 100
+Node: A | Rank: 0.252127105375
+Node: C | Rank: 0.151306489867
+Node: B | Rank: 0.139306185319
+Node: E | Rank: 0.187045906999
+Node: D | Rank: 0.118907822574
+Node: F | Rank: 0.151306489867
